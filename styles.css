@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+#line {
+	background-color: black;
+	width: 200px;
+	height: 2px;
+	margin-top: 150px;
+	animation-name: rotateLine;
+	animation-duration: 3s;
+/* 	transition-property: all; */
+/* 	transition-duration: 10s; */
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	
+}
+@keyframes rotateLine {
+	from {
+/* 		transform: rotateZ(0deg); */
+	}
+	to {
+		transform: rotateZ(360deg);
+	}
+}
